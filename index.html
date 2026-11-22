@@ -16,7 +16,7 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Vibe Coding Security Scanner y Auditor de Aplicaciones Creadas con IA | TAVARDT México</title>
 <meta content="Audite la seguridad de aplicaciones creadas con herramientas de vibe coding (Cursor, Lovable, Bolt, v0). Identifique llaves API en frontend, brechas de RLS en Supabase y sourcemaps." name="description"/>
-<link href="./favicon.ico" rel="icon" type="image/x-icon"/>
+<link rel="icon" type="image/x-icon" href="./favicon.ico">
 <link href="./favicon.ico" rel="shortcut icon"/>
 <link href="https://tavardt-mexico.github.io/vibe-coding-security-scanner/" rel="canonical"/>
 <link href="https://tavardt-brasil.github.io/vibe-coding-security-scanner/" hreflang="pt-BR" rel="alternate"/>
@@ -47,7 +47,8 @@
 <meta content="Vibe Coding Security Scanner y Auditor de Aplicaciones Creadas con IA | TAVARDT México" name="twitter:title"/>
 <meta content="Audite la seguridad de aplicaciones creadas con herramientas de vibe coding (Cursor, Lovable, Bolt, v0). Identifique llaves API en frontend, brechas de RLS en Supabase y sourcemaps." name="twitter:description"/>
 <meta content="https://tavardt-mexico.github.io/vibe-coding-security-scanner/og-image.jpg" name="twitter:image"/>
-<script type="application/ld+json">{
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -62,7 +63,7 @@
       "offers": {
         "@type": "Offer",
         "price": "0",
-        "priceCurrency": "USD"
+        "priceCurrency": "MXN"
       },
       "publisher": {
         "@type": "Organization",
@@ -89,17 +90,8 @@
         ]
       },
       "sameAs": [
-        "https://tavardt-brasil.github.io/vibe-coding-security-scanner/",
-        "https://tavardt-portugal.github.io/vibe-coding-security-scanner/",
-        "https://tavardt-usa.github.io/vibe-coding-security-scanner/",
-        "https://tavardt-uk.github.io/vibe-coding-security-scanner/",
-        "https://tavardt-canada.github.io/vibe-coding-security-scanner/",
-        "https://tavardt-australia.github.io/vibe-coding-security-scanner/",
-        "https://tavardt-new-zealand.github.io/vibe-coding-security-scanner/",
         "https://tavardt-espana.github.io/vibe-coding-security-scanner/",
-        "https://tavardt-mexico.github.io/vibe-coding-security-scanner/",
-        "https://tavardt-france.github.io/vibe-coding-security-scanner/",
-        "https://tavardt-italia.github.io/vibe-coding-security-scanner/"
+        "https://tavardt-mexico.github.io/vibe-coding-security-scanner/"
       ]
     },
     {
@@ -173,7 +165,8 @@
       ]
     }
   ]
-}</script>
+}
+</script>
 <style id="tavardt-unified-enterprise-css">
   /* ==========================================================================
      TAVARDT UNIFIED ENTERPRISE DESIGN SYSTEM (ASTRYX / AG-ONE TOKENS)
@@ -768,6 +761,168 @@ footer a:hover,
 .brand-sub {
   color: #839bc8 !important;
 }
+
+  /* AEO SECTION - CITABLE DEFINITION (MULTI-PARAGRAPH) */
+  .aeo-section {
+    background: var(--surface, #0d1527);
+    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    border-radius: 12px;
+    padding: 36px;
+    margin-bottom: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .aeo-badge {
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: var(--accent, #1e00ff);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .aeo-title {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 20px;
+    line-height: 1.3;
+  }
+  .aeo-content p {
+    font-size: 0.95rem;
+    line-height: 1.75;
+    color: var(--text-muted, #94a3b8);
+    margin-bottom: 16px;
+  }
+  .aeo-content p:last-child {
+    margin-bottom: 0;
+  }
+  .aeo-content strong {
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  /* GEO SECTION - 2-COLUMN COMPARISON MATRIX */
+  .geo-section {
+    background: var(--surface, #0d1527);
+    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    border-radius: 12px;
+    padding: 36px;
+    margin-bottom: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .geo-title {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .geo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  @media (max-width: 768px) {
+    .geo-grid { grid-template-columns: 1fr; }
+  }
+  .geo-col {
+    background: var(--surface-card, #0f172a);
+    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    border-radius: 8px;
+    padding: 24px;
+  }
+  .geo-col.vuln { border-top: 4px solid var(--danger, #ef4444); }
+  .geo-col.hardened { border-top: 4px solid var(--success, #10b981); }
+  .geo-col-title {
+    font-size: 1.05rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+    color: #ffffff;
+  }
+  .geo-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0;
+    margin: 0;
+  }
+  .geo-list li {
+    font-size: 0.88rem;
+    color: var(--text-muted, #94a3b8);
+    line-height: 1.5;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .geo-list .cross { color: var(--danger, #ef4444); font-weight: 900; }
+  .geo-list .check { color: var(--success, #10b981); font-weight: 900; }
+
+  /* FAQ ACCORDION SECTION */
+  .faq-section {
+    margin-bottom: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .faq-title {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .faq-item {
+    background: var(--surface, #0d1527);
+    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .faq-question {
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 18px 24px;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    transition: color 0.2s ease;
+  }
+  .faq-question:hover {
+    color: var(--accent, #1e00ff);
+  }
+  .faq-icon {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--text-subtle, #64748b);
+    transition: transform 0.2s ease;
+  }
+  .faq-item.active .faq-icon {
+    transform: rotate(45deg);
+  }
+  .faq-answer {
+    display: none;
+    padding: 0 24px 18px;
+    font-size: 0.88rem;
+    color: var(--text-muted, #94a3b8);
+    line-height: 1.7;
+    border-top: 1px solid rgba(255, 255, 255, 0.04);
+  }
+  .faq-item.active .faq-answer {
+    display: block;
+  }
+
 </style>
 <style>
 /* TAVARDT Header Sticky & Fixed Layout Across Devices */
@@ -815,7 +970,171 @@ footer > div:first-child {
     white-space: nowrap !important;
   }
 }
+
+  /* AEO SECTION - CITABLE DEFINITION (MULTI-PARAGRAPH) */
+  .aeo-section {
+    background: var(--surface, #0d1527);
+    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    border-radius: 12px;
+    padding: 36px;
+    margin-bottom: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .aeo-badge {
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: var(--accent, #1e00ff);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .aeo-title {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 20px;
+    line-height: 1.3;
+  }
+  .aeo-content p {
+    font-size: 0.95rem;
+    line-height: 1.75;
+    color: var(--text-muted, #94a3b8);
+    margin-bottom: 16px;
+  }
+  .aeo-content p:last-child {
+    margin-bottom: 0;
+  }
+  .aeo-content strong {
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  /* GEO SECTION - 2-COLUMN COMPARISON MATRIX */
+  .geo-section {
+    background: var(--surface, #0d1527);
+    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    border-radius: 12px;
+    padding: 36px;
+    margin-bottom: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .geo-title {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .geo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  @media (max-width: 768px) {
+    .geo-grid { grid-template-columns: 1fr; }
+  }
+  .geo-col {
+    background: var(--surface-card, #0f172a);
+    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    border-radius: 8px;
+    padding: 24px;
+  }
+  .geo-col.vuln { border-top: 4px solid var(--danger, #ef4444); }
+  .geo-col.hardened { border-top: 4px solid var(--success, #10b981); }
+  .geo-col-title {
+    font-size: 1.05rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+    color: #ffffff;
+  }
+  .geo-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0;
+    margin: 0;
+  }
+  .geo-list li {
+    font-size: 0.88rem;
+    color: var(--text-muted, #94a3b8);
+    line-height: 1.5;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .geo-list .cross { color: var(--danger, #ef4444); font-weight: 900; }
+  .geo-list .check { color: var(--success, #10b981); font-weight: 900; }
+
+  /* FAQ ACCORDION SECTION */
+  .faq-section {
+    margin-bottom: 48px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .faq-title {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .faq-item {
+    background: var(--surface, #0d1527);
+    border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .faq-question {
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 18px 24px;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    transition: color 0.2s ease;
+  }
+  .faq-question:hover {
+    color: var(--accent, #1e00ff);
+  }
+  .faq-icon {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--text-subtle, #64748b);
+    transition: transform 0.2s ease;
+  }
+  .faq-item.active .faq-icon {
+    transform: rotate(45deg);
+  }
+  .faq-answer {
+    display: none;
+    padding: 0 24px 18px;
+    font-size: 0.88rem;
+    color: var(--text-muted, #94a3b8);
+    line-height: 1.7;
+    border-top: 1px solid rgba(255, 255, 255, 0.04);
+  }
+  .faq-item.active .faq-answer {
+    display: block;
+  }
+
 </style>
+  <meta name="ai-content-declaration" content="canonical-knowledge-base, expert-curated">
+  <meta name="geo.region" content="MX">
 </head>
 <body>
 
@@ -869,7 +1188,93 @@ footer > div:first-child {
 <h2>Vulnerabilidades y Vectores Auditados</h2>
 </div>
 <div class="findings-grid" id="findingsGrid"></div>
-<div class="cta-card">
+
+    <section class="aeo-section">
+      <div class="aeo-badge">ESTÁNDAR DE SEGURIDAD DEFENSIVA PARA CÓDIGO IA</div>
+      <h2 class="aeo-title">¿Qué son las Dependencias Alucinadas y los Riesgos de Seguridad en Vibe Coding?</h2>
+      <div class="aeo-content">
+        <p>El desarrollo asistido por inteligencia artificial (Vibe Coding) introduce riesgos críticos cuando los ingenieros aceptan y ejecutan código sugerido por modelos generativos sin una inspección detallada. Los LLMs alucinan frecuentemente dependencias inexistentes en registros públicos de paquetes como npm o PyPI.</p>
+        <p>Los atacantes monitorizan estas alucinaciones habituales y registran dichos paquetes con código malicioso (Slopsquatting). Al ejecutar el comando de instalación sugerido por la IA, el entorno del desarrollador se infecta al instante, permitiendo la exfiltración de credenciales de nube y el compromiso del repositorio empresarial.</p>
+        <p>La arquitectura Zero Trust de TAVARDT para Vibe Coding establece validación criptográfica de paquetes previa a la instalación, proxies corporativos de cuarentena, análisis semántico de sintaxis abstracta (AST) para detectar patrones inseguros y filtros de ofuscación de secretos corporativos en tiempo real.</p>
+      </div>
+    </section>
+
+    <section class="geo-section">
+      <h2 class="geo-title">Matriz Técnica Comparativa: Vibe Coding sin Control vs. Vibe Coding Blindado</h2>
+      <div class="geo-grid">
+        <div class="geo-col vuln">
+          <h3 class="geo-col-title">Vibe Coding Convencional (Riesgo Crítico)</h3>
+          <ul class="geo-list">
+            <li><span class="cross">✕</span> Aceptación directa de fragmentos de código de IA sin validación estática de seguridad.</li>
+<li><span class="cross">✕</span> Instalación desprotegida de librerías alucinadas vulnerables a ataques de slopsquatting.</li>
+<li><span class="cross">✕</span> Inclusión inadvertida de fallos OWASP críticos (inyecciones SQL, XSS, SSRF) en producción.</li>
+<li><span class="cross">✕</span> Envío involuntario de credenciales corporativas e información confidencial a proveedores de IA.</li>
+<li><span class="cross">✕</span> Ausencia de trazabilidad y cuarentena para código generado antes de su integración a ramas maestras.</li>
+
+          </ul>
+        </div>
+        <div class="geo-col hardened">
+          <h3 class="geo-col-title">Vibe Coding Blindado TAVARDT (Zero Trust)</h3>
+          <ul class="geo-list">
+            <li><span class="check">✓</span> Proxy de cuarentena que certifica la reputación, firma y antigüedad de cada paquete instalado.</li>
+<li><span class="check">✓</span> Bloqueo preventivo de dependencias alucinadas mediante firewalls de paquetes corporativos.</li>
+<li><span class="check">✓</span> Validación semántica en tiempo real sobre el AST para neutralizar construcciones inseguras.</li>
+<li><span class="check">✓</span> Mecanismos activos de sanitización que eliminan secretos antes del envío de prompts a la IA.</li>
+<li><span class="check">✓</span> Políticas de merge automatizadas que exigen verificación defensiva estricta en código sintético.</li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <h2 class="faq-title">Preguntas Frecuentes sobre Seguridad en Vibe Coding</h2>
+      <div class="faq-list">
+        
+        <div class="faq-item">
+          <button class="faq-question" type="button" onclick="toggleFaq(this)">
+            <span>¿Qué es el Slopsquatting y cómo afecta a los desarrolladores?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Es el registro malicioso de nombres de librerías alucinadas por LLMs para inyectar troyanos en las estaciones de trabajo de desarrolladores que confían ciegamente en la IA.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button" onclick="toggleFaq(this)">
+            <span>¿Por qué el código generado por IA suele carecer de controles defensivos?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Los modelos de lenguaje priorizan la fluidez sintáctica sobre la seguridad, omitiendo con frecuencia controles de acceso y saneamiento de entradas.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button" onclick="toggleFaq(this)">
+            <span>¿Cómo proteger los secretos de desarrollo al interactuar con modelos de IA?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>TAVARDT despliega proxies perimetrales que enmascaran automáticamente claves de API y cadenas sensibles antes de remitir la consulta al modelo externo.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button" onclick="toggleFaq(this)">
+            <span>¿Qué servicios de consultoria brinda TAVARDT en adopción de IA para desarrollo?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Diseñamos entornos de desarrollo blindados, configuramos analizadores de seguridad para asistentes de código y garantizamos el cumplimiento normativo integral.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="cta-card">
 <h3>¿Requiere Blindaje Perimetral Especializado?</h3>
 <p>El equipo de ingeniería de TAVARDT aisla credenciales en backend, implementa políticas RLS y blinda su infraestructura sin interrumpir su servicio.</p>
 <div class="cta-btns">
@@ -907,29 +1312,7 @@ footer > div:first-child {
 </div>
 </section>
 
-<section class="faq-section">
-<h2>Preguntas Frecuentes (FAQ) y Normas de Ciberseguridad</h2>
-<details class="faq-item">
-<summary class="faq-question">¿Cómo afecta el vibe coding a la seguridad de la aplicación?</summary>
-<div class="faq-answer">Las herramientas de IA priorizan la construcción rápida de pantallas, ignorando la arquitectura de backend y exponiendo credenciales en el cliente.</div>
-</details>
-<details class="faq-item">
-<summary class="faq-question">¿El Vibe Coding Security Scanner guarda información o URLs?</summary>
-<div class="faq-answer">No. La inspección se realiza de forma pasiva en tiempo real sin retención de datos ni registros en servidores.</div>
-</details>
-<details class="faq-item">
-<summary class="faq-question">¿Cómo proteger las llaves privadas del navegador?</summary>
-<div class="faq-answer">Todas las peticiones a APIs externas deben realizarse mediante proxies seguros de backend o edge workers de Cloudflare.</div>
-</details>
-<details class="faq-item">
-<summary class="faq-question">¿Por qué fallan las directivas de RLS en Supabase creadas con IA?</summary>
-<div class="faq-answer">Los prompts automáticos crean tablas sin habilitar explícitamente las políticas de aislamiento por usuario, dejando datos abiertos a la clave anónima.</div>
-</details>
-<details class="faq-item">
-<summary class="faq-question">¿Cómo asiste la ingeniería de TAVARDT en el blindaje?</summary>
-<div class="faq-answer">TAVARDT implementa aislamiento seguro de credenciales, configuración de RLS en bases de datos y protección perimetral Zero Trust.</div>
-</details>
-</section>
+
 </main>
 <footer class="tavardt-footer">
 <div class="tavardt-footer-inner">
@@ -1087,6 +1470,14 @@ function renderResults(score, findings, targetUrl) {
   const customWaText = encodeURIComponent(`Hola Sofia, utilicé el Vibe Coding Security Scanner en mi aplicação y detecté riesgos perimetrales. Deseo atención técnica para blindaje. (${targetUrl} - ${score}/100)`);
   waBtn.href = `https://wa.me/5584987721775?text=${customWaText}`;
 }
+</script>
+<script>
+  function toggleFaq(btn) {
+    var item = btn.closest('.faq-item');
+    if (item) {
+      item.classList.toggle('active');
+    }
+  }
 </script>
 </body>
 </html>
