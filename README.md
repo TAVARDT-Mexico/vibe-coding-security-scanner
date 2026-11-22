@@ -9,7 +9,7 @@ Escáner open source para auditar aplicaciones desarrolladas con herramientas vi
 
 ## Aplicación Web Interactiva
 
-Acceda a la herramienta online y audite su pipeline en tiempo real:
+Acceda a la herramienta online y audite en tiempo real:
 
 - [https://tavardt-mexico.github.io/vibe-coding-security-scanner/](https://tavardt-mexico.github.io/vibe-coding-security-scanner/)
 
