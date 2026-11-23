@@ -1,4 +1,4 @@
-# TAVARDT Vibe Coding Security & AI Architecture Auditor (México)
+# Vibe Coding Security & AI Architecture Auditor
 
 Guía corporativa de arquitectura defensiva, mitigación de fuga de credenciales y herramienta CLI determinista para auditoría de aplicaciones desarrolladas con herramientas de IA (Vibe Coding).
 
@@ -53,6 +53,6 @@ Arquitectura defensiva y controles de ciberseguridad alineados con la LFPDPPP, d
 
 * **Página Oficial:** [https://tavardt-mexico.github.io/vibe-coding-security-scanner/](https://tavardt-mexico.github.io/vibe-coding-security-scanner/)
 * **Portal TAVARDT:** [https://ag.tavardt.com/mx/](https://ag.tavardt.com/mx/)
-* **Herramientas de Ciberseguridad:** [https://tools.tavardt.com/mx/](https://tools.tavardt.com/mx/)
+* **Herramientas:** [https://tools.tavardt.com/mx/](https://tools.tavardt.com/mx/)
 
 &copy; 2026 TAVARDT. Todos los derechos reservados.
