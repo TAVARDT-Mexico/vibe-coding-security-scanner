@@ -54,14 +54,4 @@ Arquitectura defensiva y controles de ciberseguridad alineados con la LFPDPPP, d
 
 ***
 
-## Repositorio y Documentación Oficial
-
-* **Página Oficial:** [https://tavardt-mexico.github.io/vibe-coding-security-scanner/](https://tavardt-mexico.github.io/vibe-coding-security-scanner/)
-* **Portal TAVARDT:** [Portal Institucional](https://ag.tavardt.com/mx/)
-* **Herramientas:** [Central de Ferramentas](https://tools.tavardt.com/mx/)
-
-&copy; 2026 TAVARDT. Todos los derechos reservados.
-
-***
-
 © 2026 TAVARDT. Todos los derechos reservados.
