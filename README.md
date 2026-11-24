@@ -23,7 +23,7 @@ Para evitar restricciones de sandbox de navegadores y políticas de CORS, TAVARD
 
 ```bash
 # 1. Obtener el script oficial
-curl -sO https://raw.githubusercontent.com/TAVARDT-Mexico/vibe-coding-security-scanner/main/audit_vibe_security.py
+curl -sO https://raw.githubusercontent.com/TAVARDT/vibe-coding-security-scanner/main/audit_vibe_security.py
 
 # 2. Ejecutar auditoria directa contra la aplicacion
 python audit_vibe_security.py https://su-aplicacion.com
